@@ -39,17 +39,21 @@ class Model:
             max_depth (int): Maximum depth of a tree. Default is 3.
             learning_rate (float): Boosting learning rate (step size shrinkage). Default is 0.1.
             subsample (float): Subsample ratio of the training instances. Default is 1.
-            colsample_bytree (float): Subsample ratio of columns when constructing each tree. Default is 1.
+            colsample_bytree (float): Subsample ratio of columns when constructing each tree.
+            Default is 1.
             colsample_bylevel (float): Subsample ratio of columns for each level. Default is 1.
             colsample_bynode (float): Subsample ratio of columns for each node split. Default is 1.
             reg_alpha (float): L1 regularization term on weights. Default is 0.
             reg_lambda (float): L2 regularization term on weights. Default is 1.
-            min_child_weight (float): Minimum sum of instance weight (hessian) needed in a child. Default is 1.
+            min_child_weight (float): Minimum sum of instance weight (hessian) needed in a child.
+            Default is 1.
             gamma (float): Minimum loss reduction required to make a split. Default is 0.
             scale_pos_weight (float): Balancing of positive and negative weights. Default is 1.
             verbosity (int): Verbosity of the output. Default is 1.
-            objective (str): Learning task and objective (binary classification). Default is 'binary:logistic'.
-            booster (str): Booster type to use ('gbtree', 'gblinear', or 'dart'). Default is 'gbtree'.
+            objective (str): Learning task and objective (binary classification).
+            Default is 'binary:logistic'.
+            booster (str): Booster type to use ('gbtree', 'gblinear', or 'dart').
+            Default is 'gbtree'.
             random_state (int): Seed used to generate the random number. Default is 42.
             use_label_encoder (bool): Avoids label encoding warning. Default is False.
         """
