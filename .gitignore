@@ -1,0 +1,3 @@
+data/
+venv/
+.pre-commit-config.yaml
